@@ -2,10 +2,16 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
+    
+    <TargetFramework>net10.0-windows</TargetFramework>
+    
+    <UseWindowsForms>true</UseWindowsForms>
+    <DisableWinExePlatformsCheck>true</DisableWinExePlatformsCheck>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Logic.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
