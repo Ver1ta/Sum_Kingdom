@@ -20,3 +20,4 @@ Clone this repository using your terminal and navigate into the project root fol
 ```bash
 git clone [https://github.com/Ver1ta/Sum_Kingdom.git](https://github.com/Ver1ta/Sum_Kingdom.git)
 cd Sum_Kingdom
+dotnet run
